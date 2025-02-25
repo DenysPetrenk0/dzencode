@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-import {Provider} from "react-redux";
-import store from "./store/store.js";
+import TopMenu from "./components/topMenu/TopMenu.jsx";
+import Main from "./components/main/Main.jsx";
 
 function App() {
 
   return (
-    <Provider store={store}>
-      <div>!!!</div>
-    </Provider>
+    <>
+        <TopMenu />
+        <Main />
+    </>
   )
 }
 

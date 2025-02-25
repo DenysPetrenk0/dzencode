@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
+}
+
+ul, li {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
